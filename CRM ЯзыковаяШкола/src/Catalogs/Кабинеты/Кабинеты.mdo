@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e314745a-2ea6-4fcd-bc69-e87544e0eac2">
+  <producedTypes>
+    <objectType typeId="e7b31fd7-f137-4d69-b16c-358ffcefdce8" valueTypeId="118cb620-5779-46be-8c7c-a63d24b60207"/>
+    <refType typeId="ab8e92c7-7920-49da-a686-b43350613272" valueTypeId="a74aca4a-0c44-492e-8b8e-188caa98966e"/>
+    <selectionType typeId="49e902e5-ec15-47df-883c-9331d5f6b480" valueTypeId="15d6a3e4-bd15-4a03-a74f-2253ba8e55e7"/>
+    <listType typeId="cf20efc9-1da8-48a0-a534-871f9bd8ce19" valueTypeId="7226c78d-9c5c-4f7a-b6c6-ff30fd9e5b5e"/>
+    <managerType typeId="ec7e5176-e005-49eb-8a94-efc51d79b099" valueTypeId="3530b84a-9365-4441-b170-fa6f5a06d854"/>
+  </producedTypes>
+  <name>Кабинеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кабинеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кабинет</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кабинеты</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

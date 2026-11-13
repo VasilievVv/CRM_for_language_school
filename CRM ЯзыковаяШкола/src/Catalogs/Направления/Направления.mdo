@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713ca0fc-3c17-4ff7-af35-b1c3d70d0b21">
+  <producedTypes>
+    <objectType typeId="19594d2f-bf01-4a87-9534-ce9247244f07" valueTypeId="1b79dfac-6f74-43e4-bdbb-2508398a4fca"/>
+    <refType typeId="794610b9-ada7-4c20-978d-9f982a02c3f5" valueTypeId="c47dc015-143d-4a59-8e94-41967eb50155"/>
+    <selectionType typeId="51db8d04-85cd-4571-8fb9-9d200babc4af" valueTypeId="8d7170d8-d6ed-499f-9cde-0f11aac4b874"/>
+    <listType typeId="1beb103f-1e45-4b4b-a0e6-b607740adaee" valueTypeId="053ee316-0db8-4e9f-a2c6-165c885612fd"/>
+    <managerType typeId="3cf53d8a-093c-4c91-b9d8-3273250c0cdd" valueTypeId="069ad5db-a124-4a1d-83d4-46a6ba09beaf"/>
+  </producedTypes>
+  <name>Направления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Направление</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Направления</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

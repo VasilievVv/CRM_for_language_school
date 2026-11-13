@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84f8ce09-9403-4345-b3bc-75f10b1f414b">
+  <producedTypes>
+    <objectType typeId="cd163a96-c2fc-4593-9944-196cb035b3d4" valueTypeId="8eaf1fe8-10cb-4b6e-8637-a1af68839330"/>
+    <refType typeId="866cfa1e-7a14-4186-a70a-f2d86fb16b38" valueTypeId="7be05352-97b2-4056-bc3b-b822248d0e63"/>
+    <selectionType typeId="2293b851-edf5-4fd8-a008-090ad9f0f886" valueTypeId="7849ddc5-7a26-4130-9631-744b6dd43d9c"/>
+    <listType typeId="50b220cf-9154-4b41-8e3a-82370ee594e4" valueTypeId="4d417baf-f502-4252-a088-6f26dba4807c"/>
+    <managerType typeId="78c38577-9c83-4806-b142-e43d388c8a46" valueTypeId="36c3af8b-8468-4790-bc6e-e62f37f1faab"/>
+  </producedTypes>
+  <name>ОбучающиеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучающие программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Обучающая программа</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обучающие программы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0d8c0faa-babc-425b-80ad-696575bc41ea">
+    <name>МинимальныйВозраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный возраст</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36d182f4-5678-429c-b484-ee355c532c85">
+    <name>МаксимальныйВозраст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный возраст</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

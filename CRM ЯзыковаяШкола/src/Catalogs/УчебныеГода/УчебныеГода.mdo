@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c21f196-8e17-4fe4-9b1d-fbd574f3a694">
+  <producedTypes>
+    <objectType typeId="e2c839a2-84ba-494a-8e2b-f5f809fe9cd7" valueTypeId="60523af6-0783-4ed9-a8c5-d68fe7f04bae"/>
+    <refType typeId="d0b8bd6d-faef-42f6-af8c-281de34b1dce" valueTypeId="8d6ad79e-93dd-4872-ac23-4194d41e7482"/>
+    <selectionType typeId="fe9afd67-9a21-469b-a339-273a014d6569" valueTypeId="07b07d24-2718-4bbd-8932-8383fe64abef"/>
+    <listType typeId="8126070a-174d-4c5b-8cd3-e20899e3c957" valueTypeId="d6e68529-4271-441b-a972-0ec76ecbeaf2"/>
+    <managerType typeId="42db2c6d-6b4a-450b-9117-afa0698c2992" valueTypeId="bc44eed4-e4c8-4f1b-a381-df6f7fe11133"/>
+  </producedTypes>
+  <name>УчебныеГода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные годы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учебный год</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Учебные годы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="456e632d-99b3-4b5f-a276-1d546f5d6b48">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5698df63-f54e-43b5-9b32-a269f865b8c7">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
