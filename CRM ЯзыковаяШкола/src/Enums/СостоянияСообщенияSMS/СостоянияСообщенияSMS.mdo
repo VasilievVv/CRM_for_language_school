@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="878fe826-fa99-44ad-9891-5eada9744017">
+  <producedTypes>
+    <refType typeId="fede78d1-e9c6-4f40-848e-dbcd32853305" valueTypeId="6c1047eb-385b-4e8b-bf25-49baccc7be2e"/>
+    <listType typeId="d50a6f5b-f67c-4a9c-8669-67380f36dcbf" valueTypeId="a4d37aa4-4519-4125-91c9-bbb910c0f6f3"/>
+    <managerType typeId="1b762993-ef50-410f-8277-d67e8183937d" valueTypeId="316e0d25-1ffa-4ce4-ace2-4a5a4e24d89c"/>
+  </producedTypes>
+  <name>СостоянияСообщенияSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния сообщения SMS</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

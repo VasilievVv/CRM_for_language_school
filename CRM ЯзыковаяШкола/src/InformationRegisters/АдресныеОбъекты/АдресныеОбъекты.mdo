@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caa287fe-4f60-4243-a6fe-8b2bd607205f">
+  <producedTypes>
+    <selectionType typeId="f8538bed-cc51-4c92-a18e-7b5a933a1025" valueTypeId="b733184a-dfa6-4e18-aba7-5130eb304f98"/>
+    <listType typeId="aba286a3-0324-4840-92f2-7edc3980054e" valueTypeId="2975c834-dd81-443d-ad74-23ed8c0638c9"/>
+    <managerType typeId="28648720-16ff-487f-8f79-68a1480055bd" valueTypeId="15bdb533-3182-4132-b798-38abc7dcc3e4"/>
+    <recordSetType typeId="d7d6d986-6bec-45a0-b3ec-e29f286da38c" valueTypeId="41234776-7156-4447-abc8-60db0585cde2"/>
+    <recordKeyType typeId="273accea-5bfd-4163-9a96-86f4995ef650" valueTypeId="4e4fa1a8-0f74-4a26-9227-d882fab21d92"/>
+    <recordType typeId="9ea90ec5-ab70-486e-8cc5-1707d8e5998e" valueTypeId="ec7f5679-bf4c-4809-8fec-76c51bd33bbe"/>
+    <recordManagerType typeId="f9342f93-5225-4459-b1fe-d2553b85a5af" valueTypeId="9e3c96c7-e5f6-4539-866d-36c504c9bd6f"/>
+  </producedTypes>
+  <name>АдресныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресные объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a66bda22-e3e0-49b5-bef2-0b5cda36941b">
+    <name>Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <forms uuid="53f519d2-0ee6-4314-a986-2f456722f2ae">
+    <name>ЗагрузкаАдресногоКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка адресного классификатора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c94a168f-e10f-4b09-8a82-7e53c056a643">
+    <name>ОчисткаАдресногоКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистка адресного классификатора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

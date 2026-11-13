@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3500c6fa-813a-49dd-a4bf-163500db5b7f">
+  <producedTypes>
+    <refType typeId="5507e9a1-c199-40e0-a820-7436d2faac4b" valueTypeId="5344141b-d2b8-48ba-b89e-2903138ce94f"/>
+    <listType typeId="2f5d522f-2294-401e-8e2e-2d5dd6cdcc31" valueTypeId="d4570187-c188-4ccc-8325-725f9c0955bc"/>
+    <managerType typeId="226227c8-646d-4a2d-9383-2c79cb3de3e9" valueTypeId="f5b4a13d-a743-432d-8a63-99fb340dcc51"/>
+  </producedTypes>
+  <name>ТипыОтветовНаВопрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ответов на вопрос</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

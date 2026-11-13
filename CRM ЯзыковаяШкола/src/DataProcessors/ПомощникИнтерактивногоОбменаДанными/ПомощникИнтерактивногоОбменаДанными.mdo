@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a62906e5-27f8-4e72-8769-9a3eed6997d7">
+  <producedTypes>
+    <objectType typeId="c7043298-e776-4b37-b131-4e1c0175c52a" valueTypeId="eeb642a6-f66a-4485-87d4-b7daf4090b09"/>
+    <managerType typeId="1ca2526b-e98f-44c7-a9b9-b84e69c7d3f9" valueTypeId="87f045f5-1165-4a49-9c56-da35282b9f12"/>
+  </producedTypes>
+  <name>ПомощникИнтерактивногоОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник интерактивной синхронизации данных</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникИнтерактивногоОбменаДанными.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6c5d0ac3-6086-434c-812b-1c1158ecc574">
+    <name>ВидТранспортаСообщенийОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Укажите способ обмена данными</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТранспортаСообщенийОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ обмена данными</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e7100f2b-d169-4635-ab87-7a2225ff12ee">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

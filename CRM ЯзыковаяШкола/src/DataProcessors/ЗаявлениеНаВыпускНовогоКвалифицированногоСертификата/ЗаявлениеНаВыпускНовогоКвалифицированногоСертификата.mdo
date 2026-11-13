@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b5b44c-5f24-4b2a-982c-4489b18db7f0">
+  <producedTypes>
+    <objectType typeId="4e8135c3-b673-47dc-810a-6cdf2a5b8eb9" valueTypeId="5e3baa3c-979c-46ea-aa30-e1e8639a06a8"/>
+    <managerType typeId="4f8691c9-53a8-409c-82be-f72a9ee5c5ef" valueTypeId="e74d7241-bba2-49a9-8e25-0abf1a5f4b7d"/>
+  </producedTypes>
+  <name>ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление на выпуск нового квалифицированного сертификата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата.Form.ТехническаяИнформация</defaultForm>
+  <forms uuid="5bc04a9a-6a0a-4607-b8eb-743b87143ae7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d19e8fcc-62cc-4ce4-81bc-ead33a2714df">
+    <name>ТехническаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техническая информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

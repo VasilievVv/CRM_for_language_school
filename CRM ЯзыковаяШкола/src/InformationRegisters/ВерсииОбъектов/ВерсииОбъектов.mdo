@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b13cad5-91ae-4cd1-a620-9a315ae8024c">
+  <producedTypes>
+    <selectionType typeId="bbb16b42-2be8-49f2-8c9b-4a0d3a7d536e" valueTypeId="16f5cc67-80a1-4838-99ee-4138d06e9b6f"/>
+    <listType typeId="e5f32b2b-6841-44db-a3d9-c23fdf2eae93" valueTypeId="b2cd82da-6850-4abe-9e7f-1bbafee10480"/>
+    <managerType typeId="2e9f8fa9-2ea9-40e0-b1d8-62c99c7868e7" valueTypeId="ffc30151-897d-4761-90a0-430d6d04fb20"/>
+    <recordSetType typeId="f79ed9af-7b11-42f4-a97d-6fdb4bc2aca0" valueTypeId="a3c79808-8173-4651-a6a3-1fbeee6352f7"/>
+    <recordKeyType typeId="7d5432a6-533f-48ca-b437-489f1053c702" valueTypeId="b12d70d3-57e4-400e-8295-f0fcfa2bb9f4"/>
+    <recordType typeId="a9da2bc5-5a31-4b09-a650-cf06b3a0e8c6" valueTypeId="a232db53-fc88-40f1-8df4-2061d91d08fd"/>
+    <recordManagerType typeId="aa9c4af3-bc12-4077-8cc4-bbf6e56008c7" valueTypeId="cd2115ab-b9bc-4b22-9acf-e651ee17ce32"/>
+  </producedTypes>
+  <name>ВерсииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Версия объекта</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Записи о версиях объектов</value>
+  </listPresentation>
+  <attributes uuid="549dc390-be35-4c4e-ad66-40b00a7b1d4a">
+    <name>Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <forms uuid="fa7a11cc-7ee0-4550-8d0d-9c7464d57a37">
+    <name>ВыборХранимыхВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор хранимых версий</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

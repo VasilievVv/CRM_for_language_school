@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1422999b-9977-4bed-9990-b46bd0ec7471">
+  <producedTypes>
+    <refType typeId="102412a6-a3fb-47f1-840c-c7c3b4ad1d4d" valueTypeId="b7b638a4-3ee5-4b66-80b9-0506c86c3b33"/>
+    <listType typeId="b53bd9ce-b91d-4ed8-b2ed-bb4e5e7050fe" valueTypeId="dda40a80-5ce5-439e-9a41-60db617549b3"/>
+    <managerType typeId="f528ab85-b2d8-4da2-8d75-5458bc1e9a25" valueTypeId="40f81edf-eb35-4823-879b-7610541d65cb"/>
+  </producedTypes>
+  <name>ТипыПодписиКриптографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы подписи криптографии</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <enumValues uuid="d0d90cbf-21fc-47cb-8e1c-549e67a1bf0c">
+    <name>БазоваяCAdESBES</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая (CAdES-BES)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf48ae02-ecb0-4db9-92da-585f89cddb70">
+    <name>СМеткойДоверенногоВремениCAdEST</name>
+    <synonym>
+      <key>ru</key>
+      <value>С меткой доверенного времени (CAdES-T)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bf95fa7-1067-45b3-82ea-286192f97e06">
+    <name>АрхивнаяCAdESAv3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивная (CAdES-A v3)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

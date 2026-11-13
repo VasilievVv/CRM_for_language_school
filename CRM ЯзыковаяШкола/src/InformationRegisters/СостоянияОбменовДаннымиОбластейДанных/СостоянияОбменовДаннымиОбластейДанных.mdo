@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a27244c2-ac65-423f-afce-42efd288a83d">
+  <producedTypes>
+    <selectionType typeId="953af521-436d-4b1e-926a-a484162be07e" valueTypeId="87b6f208-c920-4b85-8561-2571269349bc"/>
+    <listType typeId="41a89a66-4246-45f0-b8a2-24f84a4def2b" valueTypeId="da3f8e68-efaa-41ad-9146-9f120b2b5b21"/>
+    <managerType typeId="d13b0826-3db3-485b-82c5-844a7b06968b" valueTypeId="a728403e-1269-474e-8189-96e4d112c5a6"/>
+    <recordSetType typeId="3014f9d4-7413-4847-895b-a645f4206ace" valueTypeId="29a6a85b-ea64-432d-83f8-5848bfae198d"/>
+    <recordKeyType typeId="b1530616-3165-4f63-93bb-86ea94039011" valueTypeId="6ac73484-1dbd-44c3-9fd2-d7b63e203218"/>
+    <recordType typeId="c791d169-4bc3-4ec4-bae4-06429b7f1258" valueTypeId="0744f253-1e33-413f-81c8-4afe8fbb5566"/>
+    <recordManagerType typeId="62d4dd47-de87-4c01-b08a-8fd1195eacf5" valueTypeId="3fae7d8d-0af2-4b51-bb75-370dd1fbc6b0"/>
+  </producedTypes>
+  <name>СостоянияОбменовДаннымиОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния обменов данными областей данных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения информации состояния последней итерации обмена данными.</value>
+  </explanation>
+  <attributes uuid="3f722123-a17c-4bdd-b8b7-46b08550ebbf">
+    <name>Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+</mdclass:InformationRegister>

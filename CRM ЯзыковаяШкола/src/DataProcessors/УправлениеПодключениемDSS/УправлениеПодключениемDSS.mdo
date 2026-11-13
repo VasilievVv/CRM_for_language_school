@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f06c867-6fec-4a4d-a360-6d8e98e4e7a4">
+  <producedTypes>
+    <objectType typeId="e2c62f41-3623-4754-ac36-5e0129b3f9bc" valueTypeId="90c598e3-f183-4edc-9aea-ac65386e01b8"/>
+    <managerType typeId="e7be3654-5571-423f-8044-1a08aa9521a5" valueTypeId="58f5bc0c-8adf-49e5-b8e8-0192de6c1518"/>
+  </producedTypes>
+  <name>УправлениеПодключениемDSS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление подключением DSS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеПодключениемDSS.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f306dafa-350e-4ff9-bfe2-211be647afe8">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6db400f2-873a-44a2-9274-2cd7883bfd87">
+    <name>СписокУчетныхЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список учетных записей</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b925fd2-adb8-451a-8675-7b081fc7c570">
+    <name>СписокЭкземпляровСервераDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список экземпляров сервера DSS</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8310f927-1123-4b4b-a65e-0ff29be73329">
+    <name>СерверыDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серверы DSS</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="80a9df2d-593d-483d-8d69-28b1c08ec648">
+    <name>УчетныеЗаписиDSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетные записи DSS</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

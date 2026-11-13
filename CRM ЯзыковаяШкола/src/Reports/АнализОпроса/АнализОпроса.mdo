@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24641ed-3e92-46d7-852b-9958ab7bc520">
+  <producedTypes>
+    <objectType typeId="1b2a719f-0d1d-4210-be34-a1b18f21fb1b" valueTypeId="f9c276f5-020e-4889-b653-acd663dd5f69"/>
+    <managerType typeId="a94ce2c3-86dc-43c8-8ceb-a147bed65d05" valueTypeId="e8fb058d-d95c-4bfa-8e95-dbe586fa8932"/>
+  </producedTypes>
+  <name>АнализОпроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ опроса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализОпроса.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="bc2aa3f9-ef2c-49a5-8cd9-ddd8a8cbe19d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

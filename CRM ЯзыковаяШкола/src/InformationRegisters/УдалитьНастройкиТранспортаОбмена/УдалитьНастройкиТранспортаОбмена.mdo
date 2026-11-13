@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac028c56-b2a8-4a9b-a325-554c636f838e">
+  <producedTypes>
+    <selectionType typeId="c954bd37-230e-4f07-9979-1426d999cbe6" valueTypeId="60b48395-915c-43a7-b2ff-d511f9fe956f"/>
+    <listType typeId="8de8ff22-ffa1-4ce6-91bf-0cbd842346fe" valueTypeId="c8771557-bbe2-4660-ab54-6b882ef1a84d"/>
+    <managerType typeId="420d188c-802c-4650-ad31-87fda921ad58" valueTypeId="5c596afe-c60f-446b-b17f-a87538cb14a9"/>
+    <recordSetType typeId="07900d21-e028-4d57-849f-1bf9ede5928f" valueTypeId="7446fbc2-edba-4d97-87b8-920af90df732"/>
+    <recordKeyType typeId="5192d6df-5d07-4fcf-92f2-ff0e8f9b509c" valueTypeId="198043f3-cae3-49c4-adb0-66aed19581fe"/>
+    <recordType typeId="76e609c7-d315-4927-8bd4-56f76ffd3f80" valueTypeId="5142f12c-b86c-4026-b2a6-6a866ff5d19c"/>
+    <recordManagerType typeId="0b2d95e9-8b70-412d-8c0e-c1c9d10c4b3c" valueTypeId="e1eecfd6-a6c9-42dc-9ec1-2a5a1e813604"/>
+  </producedTypes>
+  <name>УдалитьНастройкиТранспортаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Настройки транспорта обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Параметры подключения</value>
+  </recordPresentation>
+  <attributes uuid="df29e39c-239a-42db-8b16-852fedb9d456">
+    <name>Служебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+</mdclass:InformationRegister>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d3b9eff-5d0b-437b-932f-0ec466e092b2">
+  <producedTypes>
+    <selectionType typeId="c7785f92-5775-43ab-bb3c-585c12ee3187" valueTypeId="d2bdbaf7-7a8f-49c1-bc88-0e94851be5c1"/>
+    <listType typeId="99a0a050-d637-405c-8a18-4a19f918ab32" valueTypeId="e088dd7c-b995-44ea-a475-ea393e2b0ef9"/>
+    <managerType typeId="c479626b-7723-40de-a398-6d7215463127" valueTypeId="77d7042e-096a-488d-9adb-500045174fdb"/>
+  </producedTypes>
+  <name>СогласияНаОбработкуПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласия на обработку персональных данных</value>
+  </synonym>
+  <defaultForm>DocumentJournal.СогласияНаОбработкуПерсональныхДанных.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</registeredDocuments>
+  <registeredDocuments>Document.СогласиеНаОбработкуПерсональныхДанных</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <listPresentation>
+    <key>ru</key>
+    <value>Согласия на обработку ПДн</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Согласия на обработку персональных данных</value>
+  </extendedListPresentation>
+  <forms uuid="d320803b-1de4-4e66-b455-0afe39be5c41">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

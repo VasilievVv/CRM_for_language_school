@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e2d790c-0076-413a-b5fb-f25c01ab6ad5">
+  <producedTypes>
+    <objectType typeId="b2331997-47c3-4cbb-8ec8-08a8a865e3c9" valueTypeId="d6ac6a94-6171-4fa4-a665-84359fec8fd2"/>
+    <managerType typeId="2880fcce-3f22-4f87-b1ae-5856a4285e73" valueTypeId="e397b896-1c2f-4873-a698-16dc33e55539"/>
+  </producedTypes>
+  <name>ПомощникСозданияОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник настройки синхронизации данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:DataProcessor>
