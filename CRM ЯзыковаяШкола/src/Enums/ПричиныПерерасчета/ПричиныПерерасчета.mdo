@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f0a399a-cfcb-47da-9575-2d42c67badfb">
+  <producedTypes>
+    <refType typeId="f38e2f76-f73d-4469-89b6-262d8c8cfb54" valueTypeId="71175c03-570a-4301-a30d-36784ac78c09"/>
+    <listType typeId="6b97460e-0fa7-423f-a148-7a216a602deb" valueTypeId="f27b984f-59c9-4214-ba77-ba24dc2db8ac"/>
+    <managerType typeId="df9bf4c2-2e12-4ae1-bb10-d386ed80ef09" valueTypeId="45412807-b867-42f7-9fef-c46c271326c4"/>
+  </producedTypes>
+  <name>ПричиныПерерасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины перерасчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="135be38f-9836-43ba-869e-bd455e573f51">
+    <name>Справка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28a7d5c4-2b13-4af8-b8d5-02c1e20a51e3">
+    <name>БолезньУчителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Болезнь учителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23eee921-3735-426f-815e-3f21f3265671">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

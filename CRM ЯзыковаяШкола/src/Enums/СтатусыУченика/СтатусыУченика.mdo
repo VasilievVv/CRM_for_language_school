@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6bf1f5c-9731-4393-a657-47d8b86268b4">
+  <producedTypes>
+    <refType typeId="74382249-16ae-4bd3-a141-38468c968757" valueTypeId="c25df676-5ee9-4360-b77e-b063f992a836"/>
+    <listType typeId="7af251a8-1ce6-46e3-94fc-b291b827c9f8" valueTypeId="53d627e3-53d5-4a0d-86dc-7d8cbcf6d00d"/>
+    <managerType typeId="b4732875-0259-4161-ab38-f055b923ce2e" valueTypeId="b4e97941-04dc-42d2-b236-9cee67cd6200"/>
+  </producedTypes>
+  <name>СтатусыУченика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ученика</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="49751979-f119-4962-ae12-304a4e8545a8">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2462575c-e43f-476d-9f9a-44be89c79c0f">
+    <name>ВременноПриостановил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временно приостановил</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="380ac1fb-e354-4139-bc15-589ed013a628">
+    <name>ПрекратилОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прекратил обучение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c4206e8-e280-45c0-a4ea-846227099dcf">
+    <name>Потенциальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потенциальный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

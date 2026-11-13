@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14f8cae1-7476-4c7c-93ef-e709f843197d">
+  <producedTypes>
+    <refType typeId="613530af-f30c-4e19-9d5c-ad68c4333447" valueTypeId="c8420473-7c2c-46a0-9e23-c8d5dbb34cf4"/>
+    <listType typeId="28372579-136c-45bc-8534-00805931a248" valueTypeId="8f440c7f-e4f2-4be4-820b-3b2ecfe12556"/>
+    <managerType typeId="6858c209-65c1-4185-9864-980fcb700e49" valueTypeId="b4172d8e-4b37-4928-944f-ad37f38ce47e"/>
+  </producedTypes>
+  <name>УровниЗнанияЯзыка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни знания языка</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3bf33f5e-bae2-4e93-9422-ef3f624f53e5">
+    <name>A1</name>
+    <synonym>
+      <key>ru</key>
+      <value>A1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4caeff5-2eec-4688-ba40-52429931d4c9">
+    <name>A2</name>
+    <synonym>
+      <key>ru</key>
+      <value>A2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40c8f0ca-b5cb-4c0a-acb6-f70dc62b2b27">
+    <name>B1</name>
+    <synonym>
+      <key>ru</key>
+      <value>B1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="740529ae-bb28-4547-815b-59e4d6f38b31">
+    <name>B2</name>
+    <synonym>
+      <key>ru</key>
+      <value>B2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65037857-7d9e-41cf-adb9-9d0b8785f593">
+    <name>C1</name>
+    <synonym>
+      <key>ru</key>
+      <value>C1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3717c8b3-75f8-4589-b39d-0715a1bb7c4a">
+    <name>C2</name>
+    <synonym>
+      <key>ru</key>
+      <value>C2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

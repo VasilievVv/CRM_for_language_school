@@ -47,6 +47,7 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.ЯзыковаяШкола</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -1607,6 +1608,15 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.СтатусыУченика</enums>
+  <enums>Enum.СтатусыПосещения</enums>
+  <enums>Enum.УровниЗнанияЯзыка</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ДниНедели</enums>
+  <enums>Enum.ФормыЗанятий</enums>
+  <enums>Enum.СтатусыКлиента</enums>
+  <enums>Enum.СтатусыДоговора</enums>
+  <enums>Enum.ПричиныПерерасчета</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ЗадачиИстекающиеНаДату</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51e9c132-3dc3-4b67-be19-89e38d21ba56">
+  <producedTypes>
+    <refType typeId="9c01b3f6-a149-46c0-ab97-537103691c00" valueTypeId="5c8413ab-e102-42b0-a64e-bc2882f4e25e"/>
+    <listType typeId="bab41b1f-e53a-4b78-a126-a06e9f9fd63a" valueTypeId="11164773-c73a-4c3d-86a3-91d4d776524b"/>
+    <managerType typeId="14a36dab-6e6e-4bdb-81e5-64e5fe847bc7" valueTypeId="4a48c1ad-e4a5-49d2-ba14-73e1a8f6b204"/>
+  </producedTypes>
+  <name>СтатусыКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы клиента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79fa74ae-0aba-4582-a1e6-7d459fbeac91">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1c9dada-d3ca-4b6a-b020-cdf888f89da5">
+    <name>Потенциальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потенциальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9afa41dd-49d4-4bbc-9214-c8a792dbb456">
+    <name>Бывший</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бывший</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

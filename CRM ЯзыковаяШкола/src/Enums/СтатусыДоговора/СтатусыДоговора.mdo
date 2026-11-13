@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d75702e-249c-477f-ac7d-20220c6cc259">
+  <producedTypes>
+    <refType typeId="d7a1c1da-14f5-4286-b2fe-f68d8373ebae" valueTypeId="cb2734ca-5f80-494c-a7ac-07b7ac828d1d"/>
+    <listType typeId="ae78859a-ef1c-4799-ab66-64fd4b22862c" valueTypeId="1969de31-f4ca-45c4-ae32-d2349beb9bec"/>
+    <managerType typeId="8dcc285f-1313-4f28-929b-4a12fcbf885b" valueTypeId="dce0f75a-040a-4823-b408-02f8f7dd0da2"/>
+  </producedTypes>
+  <name>СтатусыДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы договора</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d37ccea9-f8ca-4e29-ab13-67995db415de">
+    <name>Действующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac9a9ad5-cb7a-46ce-b269-eb5b6cb286ce">
+    <name>Приостановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приостановлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="416ce4f7-e2e8-4270-bef1-7fc2eacd8d58">
+    <name>Расторгнут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расторгнут</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8726461-603f-4093-9bfe-ad83068660e4">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

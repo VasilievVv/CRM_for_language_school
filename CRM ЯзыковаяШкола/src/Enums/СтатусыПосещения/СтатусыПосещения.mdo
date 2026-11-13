@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aabc5aa-25e2-437f-bd90-65ddb51a339c">
+  <producedTypes>
+    <refType typeId="058be485-26e9-4b2d-83f2-ad4dee6aad01" valueTypeId="d5cf6b3b-30e7-4047-b90c-2c579625d503"/>
+    <listType typeId="8a9aad85-8076-47a2-bc49-7a7cd67963fc" valueTypeId="389d7b96-039f-4dab-bfd0-d60bdc551719"/>
+    <managerType typeId="ae0a772d-31d2-418b-aa82-d720d3cc9bef" valueTypeId="d2e5e9ea-cbf0-44a4-bf3c-94f9a6b701dd"/>
+  </producedTypes>
+  <name>СтатусыПосещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы посещения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8e862784-03da-4418-84d7-563807850382">
+    <name>Присутствовал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присутствовал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36a28d2c-801a-4e08-9c40-936743fedab6">
+    <name>Отсутствовал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствовал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f97c059-fdc7-4912-a229-a9926038badd">
+    <name>ПоСправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По справке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2378c563-3aee-4f9d-b736-02b32a1c13f4">
+    <name>Отработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a196dc25-d2cb-457f-ac0a-e567cd67a093">
+    <name>НеОтмечено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отмечено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

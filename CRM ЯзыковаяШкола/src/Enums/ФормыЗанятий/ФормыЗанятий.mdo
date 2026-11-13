@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55b56d32-2134-4f20-afc4-2f09cae9122e">
+  <producedTypes>
+    <refType typeId="b25082ac-dd42-4cac-943a-2afa26dbf1b8" valueTypeId="143679a9-eb9d-4d5c-82a2-c3a4b23619da"/>
+    <listType typeId="a3d1f3b3-d16c-4a8e-9271-e0f5abf31652" valueTypeId="4f2fdc95-c519-4735-8762-cd120bd4aa71"/>
+    <managerType typeId="f18b0600-1a89-4465-a3c2-a5e8643e485b" valueTypeId="a6c392b6-39ec-412f-aa6f-010d8fd28708"/>
+  </producedTypes>
+  <name>ФормыЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы занятий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a279b18-7395-49db-9f7c-b1173b31bd80">
+    <name>Индивидуально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуально</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd63953a-dadc-4a04-824a-b1453857828d">
+    <name>МиниГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мини-группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01ec63a8-be8f-4950-9c8c-c311b476de6f">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
