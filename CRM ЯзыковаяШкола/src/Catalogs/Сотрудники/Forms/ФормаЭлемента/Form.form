@@ -829,23 +829,6 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <attributes>
-    <name>ПараметрыКонтактнойИнформации</name>
-    <title>
-      <key>ru</key>
-      <value>ПараметрыКонтактнойИнформации</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>Structure</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
