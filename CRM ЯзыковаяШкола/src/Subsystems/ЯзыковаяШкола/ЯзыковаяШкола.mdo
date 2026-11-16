@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <subsystems>НСИ</subsystems>
   <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
 </mdclass:Subsystem>
