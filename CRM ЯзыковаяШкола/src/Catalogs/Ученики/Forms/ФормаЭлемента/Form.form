@@ -461,7 +461,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа контактная информация</value>
+      <value>Контактная информация</value>
     </title>
     <extendedTooltip>
       <name>ГруппаКонтактнаяИнформацияРасширеннаяПодсказка</name>
@@ -476,7 +476,9 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>HorizontalIfPossible</group>
-      <behavior>Auto</behavior>
+      <behavior>Collapsible</behavior>
+      <collapsed>true</collapsed>
+      <controlRepresentation>Picture</controlRepresentation>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
