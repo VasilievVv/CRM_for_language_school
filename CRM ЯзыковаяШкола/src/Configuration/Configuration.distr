@@ -25,7 +25,7 @@
     <items userId="32fd1fe7-34d3-43ed-baba-16ccd43aa25a" parentId="32fd1fe7-34d3-43ed-baba-16ccd43aa25a" userMode="Cancelled"/>
     <items userId="917c6f60-2a07-4587-9496-d393aff93953" parentId="917c6f60-2a07-4587-9496-d393aff93953"/>
     <items userId="e678bb94-3cb1-4706-8e76-4fada4d5036c" parentId="e678bb94-3cb1-4706-8e76-4fada4d5036c" userMode="Cancelled"/>
-    <items userId="83385f31-2cdf-44a1-85c3-461e4ad5fd45" parentId="83385f31-2cdf-44a1-85c3-461e4ad5fd45"/>
+    <items userId="83385f31-2cdf-44a1-85c3-461e4ad5fd45" parentId="83385f31-2cdf-44a1-85c3-461e4ad5fd45" userMode="ChangesAllowed"/>
     <items userId="c65f69ce-be78-4e8d-b91d-293c4108ce77" parentId="c65f69ce-be78-4e8d-b91d-293c4108ce77" userMode="Cancelled"/>
     <items userId="304feda3-6d33-466c-9e0d-9cea97d763be" parentId="304feda3-6d33-466c-9e0d-9cea97d763be"/>
     <items userId="05ee4a7c-63e6-4587-8be7-e206345e3471" parentId="05ee4a7c-63e6-4587-8be7-e206345e3471" userMode="Cancelled"/>
@@ -695,7 +695,7 @@
     <items userId="ad083c26-7461-4e94-b524-0174242fbd91" parentId="ad083c26-7461-4e94-b524-0174242fbd91"/>
     <items userId="267dc512-9ee1-4bc1-9034-3effb7fb2949" parentId="267dc512-9ee1-4bc1-9034-3effb7fb2949"/>
     <items userId="71e52f63-04db-4336-ace6-b143d0a7d250" parentId="71e52f63-04db-4336-ace6-b143d0a7d250"/>
-    <items userId="782cb93d-36e6-4923-b2b6-75caa3459cd6" parentId="782cb93d-36e6-4923-b2b6-75caa3459cd6"/>
+    <items userId="782cb93d-36e6-4923-b2b6-75caa3459cd6" parentId="782cb93d-36e6-4923-b2b6-75caa3459cd6" userMode="ChangesAllowed"/>
     <items userId="2afdcde7-46ef-4624-8b84-c6381ff2f3a4" parentId="2afdcde7-46ef-4624-8b84-c6381ff2f3a4"/>
     <items userId="0248a6c4-7ce5-4898-bb1d-9ad9509e6795" parentId="0248a6c4-7ce5-4898-bb1d-9ad9509e6795" userMode="Cancelled"/>
     <items userId="5f3fea83-6ca8-481b-9e2b-789a6fd01e2e" parentId="5f3fea83-6ca8-481b-9e2b-789a6fd01e2e" userMode="Cancelled"/>
