@@ -294,7 +294,9 @@
       </synonym>
       <type>
         <types>Date</types>
-        <dateQualifiers/>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -309,7 +311,9 @@
       </synonym>
       <type>
         <types>Date</types>
-        <dateQualifiers/>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
