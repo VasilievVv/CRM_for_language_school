@@ -9,6 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ДоговорОбучения</content>
   <content>Document.УстановкаЦен</content>
-  <content>InformationRegister.ЦеныОбучения</content>
   <parentSubsystem>Subsystem.ЯзыковаяШкола</parentSubsystem>
 </mdclass:Subsystem>
