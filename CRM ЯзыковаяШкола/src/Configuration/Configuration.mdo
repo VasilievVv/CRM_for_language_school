@@ -1023,6 +1023,7 @@
   <commonModules>CommonModule.РаботаВБезопасномРежимеКлиент</commonModules>
   <commonModules>CommonModule.РаботаВБезопасномРежимеКлиентПереопределяемый</commonModules>
   <commonModules>CommonModule.РаботаВБезопасномРежимеПереопределяемый</commonModules>
+  <commonModules>CommonModule.КлиентыУченикиСервер</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
