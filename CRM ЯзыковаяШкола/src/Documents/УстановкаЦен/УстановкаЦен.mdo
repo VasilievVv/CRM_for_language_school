@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60deb358-c89d-4337-8d58-8fbdcac118d6">
+  <producedTypes>
+    <objectType typeId="cd1fe09a-c410-4d10-9707-5d4c2111023c" valueTypeId="9714eaf9-fd32-47ae-8b63-b549c101e791"/>
+    <refType typeId="9cc88d5c-4ec7-4d23-937b-700d50c7ce0d" valueTypeId="17bf826e-c5f3-44f6-8ec2-581321738381"/>
+    <selectionType typeId="c48060d6-de3d-4730-9a77-ab08ac5e3e90" valueTypeId="33ce0c72-a11e-4b25-808d-9e0be8d2e518"/>
+    <listType typeId="05971398-33ef-4c29-b67b-595137f7fab9" valueTypeId="c769656f-055a-4b26-80bc-57eb96dabc7b"/>
+    <managerType typeId="618c176d-aa08-4d98-8751-d0bb8e1031e9" valueTypeId="c101cfe2-df9a-4bcf-b9c6-5b3e91e325b7"/>
+  </producedTypes>
+  <name>УстановкаЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Установка цен</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Установки цен</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦен.Form.ФормаЭлемента</defaultObjectForm>
+  <registerRecords>InformationRegister.ЦеныОбучения</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0ec1a20d-6de3-434d-ba4c-ca2f57b3a46e">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae300b37-f6a1-4478-b9af-87b059974c0a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="123035a9-652c-43c1-b268-fd0d0c61e478">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+  </forms>
+  <tabularSections uuid="5c8004c7-86b3-4c2d-aeb9-4761845744c5">
+    <producedTypes>
+      <objectType typeId="4084b5a5-3f10-4c37-a381-c9e2293dc354" valueTypeId="4d133c34-48e5-4e1e-abb1-ebace48055f5"/>
+      <rowType typeId="eb8d1894-5efa-44a1-9dee-e4c85eb5b935" valueTypeId="f6cca447-a357-4d4a-a057-16d85ca1ab98"/>
+    </producedTypes>
+    <name>Цены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <attributes uuid="16fa778c-bf8d-49df-a410-ab46c0aa44af">
+      <name>ВозрастнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возрастная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОбучающиеПрограммы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="72745584-20e8-43db-8cc6-07d9105e1279">
+      <name>ФормаЗанятий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Форма занятий</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ФормыЗанятий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa381906-adb1-483e-8548-4c8a371b4aa7">
+      <name>ЦенаЗаЗанятие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за занятие</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="303a1a7a-b798-4347-9817-42e55bcf4377">
+      <name>ЦенаЗаМесяц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена за месяц</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
