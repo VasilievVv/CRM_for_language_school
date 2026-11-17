@@ -36,6 +36,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчебныеГода.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="456e632d-99b3-4b5f-a276-1d546f5d6b48">
     <name>ДатаНачала</name>
     <synonym>
@@ -72,4 +73,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e04f1380-f163-4711-8d05-3691e7c9fd0b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
