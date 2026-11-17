@@ -36,6 +36,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОбучающиеПрограммы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="0d8c0faa-babc-425b-80ad-696575bc41ea">
     <name>МинимальныйВозраст</name>
     <synonym>
@@ -72,4 +73,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="6a71d415-1063-46e9-8c68-bea03adadad0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

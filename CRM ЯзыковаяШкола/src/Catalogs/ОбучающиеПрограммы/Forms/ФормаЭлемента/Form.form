@@ -39,6 +39,10 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <inputHint>
+        <key>ru</key>
+        <value>Младшая школа</value>
+      </inputHint>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">

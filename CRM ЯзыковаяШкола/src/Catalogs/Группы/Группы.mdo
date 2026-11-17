@@ -36,6 +36,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Группы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="cd957f2a-adc1-47c8-8628-85b0902c0966">
     <name>Направление</name>
     <synonym>
@@ -243,4 +244,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="e5d2a1f5-9be0-4958-a20f-3b04413b4f99">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>
