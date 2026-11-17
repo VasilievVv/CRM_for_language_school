@@ -1807,6 +1807,7 @@
   <informationRegisters>InformationRegister.УдалитьНастройкиТранспортаОбмена</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныОбучения</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныСкидкиКлиентов</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
